@@ -4,3 +4,5 @@ npm-debug.log
 .env
 knexfile.js
 migrations/
+heroku
+heroku.pub
