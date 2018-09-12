@@ -1,0 +1,61 @@
+[
+    {
+        "name": "Personal Website",
+        "stack": [
+            "NODE.JS",
+            "CSS",
+            "SQL",
+            "MARKDOWN",
+            "PUG"
+        ],
+        "date": "In Development",
+        "description": "The website you are currently on now! The notes on this website are dynamically shown through markdown files that are added into an SQL database and shown as HTML.",
+        "link": "https://github.com/mrharshpatel",
+        "image": "/images/projects/thiswebsite.jpg"
+    },
+    {
+        "name": "MyCourses Chrome Extension",
+        "stack": [
+            "CHROME",
+            "JS"
+        ],
+        "date": "In Development",
+        "description": "A chrome extension created to improve the McGill myCourses webpage. Built with a team of students under SIMVO, specifically implemented an add to calendar feature that lets students add assignments to their own personal calendars (Google, iCal, Outlook etc.)",
+        "link": "https://github.com/Simvo/mycourses-extension",
+        "image": "/images/projects/mycourses.jpg"
+    },
+    {
+        "name": "One Voice",
+        "stack": [
+            "RUBY",
+            "SQL"
+        ],
+        "date": "January 2018",
+        "description": "A mobile friendly website created for the Starter Hacks 2017 Hackathon (24 H). Allows government officials to create polls and send information for citizens on the municipal, provincial and federal level. Users can then get streamlined polls and information depending on their geographic location. Implemented in Ruby with an SQL database for CRUD operations.",
+        "link": "https://github.com/MrHarshPatel/StarterHacksProject",
+        "image": "/images/projects/onevoice.jpg"
+    },
+    {
+        "name": "Discord Democracy",
+        "stack": [
+            "JAVA",
+            "SQL"
+        ],
+        "date": "December 2017",
+        "description": "A voting bot for discord that allows users to create polls and vote on their servers. Data is held in an SQLite local database file.",
+        "link": "https://github.com/MrHarshPatel/DiscordDemocracy",
+        "image": "/images/projects/discorddemocracy.gif"
+    },
+    {
+        "name": "Elastic Collision Simulator",
+        "stack": [
+            "JAVA",
+            "AWT",
+            "SWING"
+        ],
+        "date": "November 2017",
+        "description": "A java program created to simulate completely elastic collisions between circular objects. Created for the McGill Physics Hackathon in 24 hours.",
+        "link": "https://github.com/MrHarshPatel/ElasticCollisionSimulator",
+        "image": "/images/projects/simulator.gif"
+    }
+]

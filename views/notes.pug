@@ -1,0 +1,44 @@
+meta(name="viewport" content="width=device-width, initial-scale=1.0")
+
+doctype html
+html
+  head
+      meta(charset='UTF-8',name='viewport', content='width=device-width, initial-scale=1.0')
+      title #{title}
+      link(rel='stylesheet', href='/styles/notes.css')
+      script(type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js")
+      script(src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js")
+
+      script(src='/js/responsiveGallery.js')
+      link(rel='stylesheet', href="https://fonts.googleapis.com/css?family=Oswald:300,400")
+      link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+  body
+    div(class='navigation')
+      a(href='/') Harsh Patel
+      a(class='fa fa-linkedin', href='https://www.linkedin.com/in/mrharshpatel/',target='_blank')
+      a(class='fa fa-github', href='https://github.com/MrHarshPatel',target='_blank')
+      a(class='fa fa-envelope', href='mailto:me@mrharshpatel.com',target='_blank')
+      a(class='fa fa-download', href='#',target='_blank')
+    div(class='mainContainer left fade-in two')
+      h1(style='font-weight: 375') Notes
+        div(class='button-group filters-button-group')
+          button(class='button is-checked' data-filter="*") All
+          each val, key in data
+            button(class='button' data-filter="." + key.substring(0, 4))= key
+        #notesContainer(class='notes-container')
+          section(id="grid-container" class='transitions-enabled fluid masonry js-masonry grid')
+            each val, key in data
+              each course in val
+                article(class=key.substring(0,4) + " " + course)
+                  a(style='all: revert;', href='/notes/' + course)
+                    img(src="/images/courses/"+ course.replace(/\s/g, '') + '.jpg' class="img-responsive")
+                    div(class="centered")= course
+            
+        
+
+        
+            
+    a(href='/projects')
+      span(class='mainContainer right',href='/projects')
+        h6() Projects
+      

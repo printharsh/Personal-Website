@@ -1,0 +1,30 @@
+meta(name="viewport" content="width=device-width, initial-scale=1.0")
+
+doctype html
+html
+    head
+        meta(charset='UTF-8',name='viewport', content='width=device-width, initial-scale=1.0')
+        title #{title}
+        link(rel='stylesheet', href='/styles/splash-page.css')
+        link(rel='stylesheet', href="https://fonts.googleapis.com/css?family=Oswald:300,400")
+        link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+          
+    body
+      #mainContainer(class='mainContainer left')
+        #center-splash(class='centerSplash')
+          h1 Harsh Patel
+          h2 
+            span(class='fade-in one') Software Developer 
+            span(class='fade-in two') | Biologist 
+            span(class='fade-in three') | Student
+          #social-links
+              a(class='fa fa-linkedin fa-2x', href='https://www.linkedin.com/in/mrharshpatel/',target='_blank')
+              a(class='fa fa-github fa-2x', href='https://github.com/MrHarshPatel',target='_blank')
+              a(class='fa fa-envelope fa-2x', href='mailto:me@mrharshpatel.com',target='_blank')
+              a(class='fa fa-download fa-2x', href='#',target='_blank')
+      a(href='/projects')
+        span(class='mainContainer right2',href='/projects')
+          h6() Projects
+      a(href='/notes')
+        span(class='mainContainer right')
+          h6(href='/notes') Notes

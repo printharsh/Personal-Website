@@ -1,0 +1,192 @@
+body {
+    background-color: lightblue;
+    margin:0px;
+}
+
+h1, h2, h3, h4, h5, h6{
+  line-height: 20px;
+  font-weight: 300;
+  font-family: 'Oswald', sans-serif;
+  color:black;
+}
+
+.card h1,.card  h2,.card h3,.card  h4,.card  h5,.card  h6{
+  line-height: 20px;
+  font-weight: 300;
+  font-family: 'Oswald', sans-serif;
+  color:black;
+}
+.card li{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 150;
+  font-size: 21px;
+}
+
+
+h6 {
+  transform: rotate(90deg);
+  font-size: calc(10px + 5vw);
+  color:white;
+  line-height: calc(35vh - 105px);
+}
+
+h1.courseName {
+  font-size: calc(15px + 2vw);
+  text-align: center;
+  color:white;
+}
+
+
+.name {
+  line-height: 15px;
+  font-weight: 300;
+  font-family: 'Oswald', sans-serif;
+  color:white;
+}
+
+.navigation {
+    overflow: hidden;
+    background-color: #CD5C5C;
+    position: fixed;
+    top: 20;
+    left: 2.5%;
+    width: 85%;
+    z-index:999;
+}
+
+/* Links inside the navbar */
+.navigation a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+  opacity: 0.7;
+}
+
+.fa-linkedin {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-github {
+    background: #c9510c;
+    color: white;
+}
+
+.fa-download {
+  background: #DAF7A6;
+  color: black !important;
+}
+
+.fa-envelope{
+  background:#FFC300;
+  color: black !important;
+}
+
+.mainContainer {
+      padding-top:75px;
+      height: 100%;
+      width: 10%;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      overflow: hidden;
+}
+
+.left {
+    left: 2.5%;
+    width: 85%;
+
+
+}
+
+.right {
+    right: 0;
+    background-color: #E9967A;
+}
+
+.right:hover,.right2:hover {
+    opacity: 0.7;
+}
+
+.card {
+  background-color: #CB5D5E;
+  padding: 20px;
+}
+
+
+.simple-pagination ul {
+	margin: 0 0 20px;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+.simple-pagination li {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.simple-pagination li a,
+.simple-pagination li span {
+	color: #fff;
+	padding: 5px 10px;
+	text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+	background-color: #CB5D5E;
+}
+
+.simple-pagination .current {
+	color: #FFF;
+	background-color: #000;
+}
+
+.simple-pagination .prev.current,
+.simple-pagination .next.current {
+	background: #000;
+}
+
+
+.notes-container{
+  overflow-y: auto;
+  height:70%;
+  width:100%;
+
+}
+
+
+/*
+ *  STYLE 9
+ */
+
+.notes-container::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: black;
+  background-color: #F5F5F5;
+}
+
+.notes-container::-webkit-scrollbar
+{
+  width: 10px;
+  background-color: #F5F5F5;
+}
+
+.notes-container::-webkit-scrollbar-thumb
+{
+  background-color: black;
+}
+
+.courseHeader{
+  padding-top:1px;
+  padding-bottom:1px;
+  margin-top:20px;
+  margin-bottom:20px;
+  background-size: 100%;
+
+}

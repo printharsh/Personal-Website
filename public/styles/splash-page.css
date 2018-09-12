@@ -1,0 +1,138 @@
+body {
+    background-color: lightblue;
+}
+
+h1, h2, h3, h4, h5, h6, a{
+  line-height: 20px;
+  font-weight: 300;
+  font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+  font-size: calc(15px + 6.7vw);
+}
+
+h2 {
+  font-size: calc(8px + 2.7vw);
+}
+
+h6 {
+  transform: rotate(90deg);
+  font-size: calc(10px + 5vw);
+  color:white;
+  line-height: 35vh;
+}
+
+
+.fa {
+    padding: 2vw;
+    font-size: 110px;
+    width: 7vw;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-github {
+    background: #c9510c;
+    color: white;
+}
+
+.fa-download {
+  background: #DAF7A6;
+  color: black;
+}
+
+.fa-envelope{
+  background:#FFC300;
+  color:black;
+}
+
+.mainContainer {
+      height: 100%;
+      width: 10%;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      overflow-x: hidden;
+      padding-top: 20px;
+}
+
+.left {
+    width: 80%;
+    left: 0;
+}
+
+.right {
+    right: 0;
+    background-color: #CD5C5C;
+}
+
+.right:hover,.right2:hover {
+    opacity: 0.7;
+}
+
+.right2 {
+    right: 10%;
+    /* background-color: #900C3F; */
+    background-color:#E9967A;
+}
+
+.centerSplash {
+  width: 80vw;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}​
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
+.fade-in.one {
+  -webkit-animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+.fade-in.two {
+  -webkit-animation-delay: 1.2s;
+  -moz-animation-delay:1.2s;
+  animation-delay: 1.2s;
+}
+
+.fade-in.three {
+  -webkit-animation-delay: 1.6s;
+  -moz-animation-delay: 1.6s;
+  animation-delay: 1.6s;
+}
+
+.fade-in.four {
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  animation-delay: 2s;
+}
