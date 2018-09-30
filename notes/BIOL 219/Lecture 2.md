@@ -37,5 +37,5 @@ LectureNumber: 2
       - Friction/Drag
       - Gravity (v small compared to other forces (other forces dominate gravity))
       - Elastic
-
+  - Microtubules (25 nm diametr~)
 - Next time: time scales + forces
