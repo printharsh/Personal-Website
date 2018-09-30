@@ -1,5 +1,6 @@
 # PersonalWebsiteRedesigned
 My personal website that holds my projects and notes. Created to learn more about web-development and for me to create a useful place for all my notes to be stored and accessed.
+Link: https://www.mrharshpatel.com
 
 # Stack Used:
 - Node.JS, Express, PUG (For running server side javascript and having dynamic rendering)
