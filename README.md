@@ -15,7 +15,7 @@ Link: https://www.mrharshpatel.com
 3. Renders Markdown into a beautiful notes viewer
 ![alt text](https://www.mrharshpatel.com/images/forReadMe/notesViewer.gif)
 4. Showcases github projects in a nicely formatted card view
-![alt text](https://www.mrharshpatel.com/images/forReadMe/projectView.jpg)
+![alt text](https://www.mrharshpatel.com/images/forReadMe/projectView.png)
 
 # Planned Features:
 1. Ability to search topics through notes (Possibly add Search Engine)
