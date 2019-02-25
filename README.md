@@ -19,7 +19,7 @@ Link: https://www.mrharshpatel.com
 
 # Planned Features:
 1. Ability to search topics through notes (Possibly add Search Engine)
-2. Add index-cards for definitions that are defined in notes (Allows myself and others to quiz)
+2. Add index-cards for definitions that are defined in notes (Allows ability to quiz)
 3. Showcase different algorithms visually instead of just pseudo code!
 4. Syntax highlighting for programming course notes
 5. Write more notes and better ones (Images instead of just text)
